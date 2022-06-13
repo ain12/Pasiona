@@ -1,0 +1,11 @@
+﻿namespace EjClase
+{
+        class CustomException : Exception
+        {
+             public CustomException(string message) : base(message)
+                {
+
+                }
+        }
+    
+}
